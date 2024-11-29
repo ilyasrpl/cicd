@@ -58,7 +58,7 @@ class RestaurantList extends HTMLElement {
              aria-label="${restaurant.name} restaurant in ${restaurant.city}">
             <img src="${CONFIG.IMAGE_URL}/${restaurant.pictureId}" 
             alt="${restaurant.name}"
-            loading="lazy"/>
+            loading="lazy"/>ok
             <div class="restaurant-info">
               <h2>${restaurant.name}</h2>
               <div class="restaurant-meta">
