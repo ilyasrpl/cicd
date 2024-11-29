@@ -29,7 +29,4 @@ jobs:
 
       # Deploy ke GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # Ganti dengan folder hasil build kamu
+        run: npm run serve
